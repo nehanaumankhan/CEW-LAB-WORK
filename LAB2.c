@@ -71,7 +71,6 @@ int main(){
 //Q4 Write a C program to read a sentence and replace lowercase characters with uppercase and vice versa.
 #include <stdio.h>
 #include<ctype.h>
-#include<string.h>
 int main(){
     int i=0;
     char str[200],res[200];
@@ -88,7 +87,7 @@ int main(){
             res[i] = str[i];
     }
 
-    printf("%s length is %d",res,strlen(res));
+    printf("%s");
     return 0;    
 }
 // Q5 Write a C program to print all unique elements in an array.
